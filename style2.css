@@ -46,9 +46,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* *, *::after, *::before {
-  box-sizing: border-box;
-} */
 body{
     line-height: 1.5;
 	letter-spacing: 0.05em;
@@ -68,17 +65,14 @@ a{
 	justify-content: space-between;
 	align-items: center;
 	margin-top: 24px;
-	margin-bottom: 24px;
 }
 .header-lift{
+	width: 351px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	font-weight: 500;
 
-}
-.header-lift li{
-    margin-right: 20px;
 }
 .header-lift li a{
 	color: #212529;
